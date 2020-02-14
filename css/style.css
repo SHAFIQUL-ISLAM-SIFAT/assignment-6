@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: yellowgreen;
+  text-align: center;
+  border: 1px solid;
+}
+header h1 {
+  padding: 5px;
+}
+.banner {
+  background-color: coral;
+  height: 300px;
+  text-align: center;
+}
+.content {
+  height: 400px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+.left-content {
+  height: 100%;
+  width: 19%;
+  text-align: center;
+  background-color: mediumseagreen;
+  border: 1px solid;
+  float: left;
+  border-radius: 15px;
+}
+.middle-content {
+  height: 100%;
+  width: 60%;
+  text-align: center;
+  /* background-color: mediumseagreen; */
+  /* border: 1px solid; */
+  float: left;
+  margin-left: 1%;
+  /* border-radius: 15px; */
+}
+.center-top {
+  height: 30%;
+  width: 100%;
+  text-align: center;
+  background-color: mediumseagreen;
+  border: 1px solid;
+  border-radius: 15px;
+}
+
+.center-middle {
+  height: 38%;
+  width: 100%;
+  text-align: center;
+  background-color: mediumseagreen;
+  border: 1px solid;
+  border-radius: 15px;
+  margin: 1% 0;
+}
+.center-bottom {
+  height: 28%;
+  width: 100%;
+  text-align: center;
+  background-color: mediumseagreen;
+  border: 1px solid;
+  border-radius: 15px;
+}
+.right-content {
+  height: 100%;
+  width: 19%;
+  text-align: center;
+  background-color: mediumseagreen;
+  border: 1px solid;
+  float: right;
+  border-radius: 15px;
+}
+footer {
+  background-color: chartreuse;
+  text-align: center;
+  margin-top: 10px;
+}
